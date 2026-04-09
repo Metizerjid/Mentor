@@ -1,0 +1,20 @@
+import{r,j as e}from"./react-vendor-XsfE7ZtX.js";import{C as m}from"./capacitor-DrPXtrF_.js";import{L as p}from"./router-BkqjKJfj.js";import"./firebase-analytics-BNyniyD3.js";import"./firebase-core-pfi8a7uV.js";import"./vendor-idb-Bn1DMRyg.js";import"./firebase-messaging-BU5brn_i.js";const w=({onLogin:n,loading:l=!1,error:i})=>{const o=m.isNativePlatform(),[s,d]=r.useState(""),[a,c]=r.useState(""),x=async t=>{t.preventDefault(),!(!s||!a||l)&&await n(s,a)};return e.jsx("div",{className:`
+        relative flex min-h-screen min-h-[100dvh] min-h-[100svh] w-full items-center justify-center overflow-hidden bg-[#f4f6fb] px-4 text-slate-900
+        min-h-screen min-h-[100svh] min-h-[100dvh]
+        overscroll-none touch-pan-y
+      `,children:e.jsx("div",{className:"relative flex w-full max-w-md justify-center",children:e.jsxs("div",{className:"relative w-full",children:[e.jsxs("div",{className:"mb-6 flex flex-col items-center",children:[e.jsxs("div",{className:"relative",children:[!o&&e.jsx("div",{className:"absolute inset-0 rounded-full bg-[#2f57c8]/10 blur-3xl"}),e.jsx("img",{src:"./medilogo.png",alt:"Mentör Web App",className:"relative mb-3 h-28 w-auto drop-shadow-[0_12px_22px_rgba(15,23,42,0.18)]",draggable:!1})]}),e.jsx("h1",{className:"mt-1 text-center text-[28px] font-black tracking-tight text-[#24449e]",children:"MentorMe"}),e.jsx("p",{className:"mt-2 text-center text-sm text-slate-500",children:"Hesabınla giriş yap ve sana özel paneli aç."})]}),e.jsx("div",{className:"rounded-[32px] border border-white/80 bg-white/92 p-7 shadow-[0_24px_70px_rgba(15,23,42,0.1)] backdrop-blur-sm",children:e.jsxs("form",{onSubmit:x,className:"space-y-4",children:[e.jsxs("div",{children:[e.jsx("label",{className:"mb-1.5 block text-xs font-medium text-slate-700",children:"E-posta"}),e.jsx("input",{"data-testid":"login-email",type:"email",value:s,onChange:t=>d(t.target.value),className:`
+                      w-full rounded-[22px] border border-[#d8e2f8] bg-[#f8faff] px-4 py-3 text-sm
+                      text-slate-900 placeholder:text-slate-400
+                      focus:border-[#9db5f5] focus:outline-none focus:ring-2 focus:ring-[#dce6ff]
+                      transition
+                    `,placeholder:"ornek@eposta.com",autoComplete:"email",inputMode:"email"})]}),e.jsxs("div",{children:[e.jsx("label",{className:"mb-1.5 block text-xs font-medium text-slate-700",children:"Şifre"}),e.jsx("input",{"data-testid":"login-password",type:"password",value:a,onChange:t=>c(t.target.value),className:`
+                      w-full rounded-[22px] border border-[#d8e2f8] bg-[#f8faff] px-4 py-3 text-sm
+                      text-slate-900 placeholder:text-slate-400
+                      focus:border-[#9db5f5] focus:outline-none focus:ring-2 focus:ring-[#dce6ff]
+                      transition
+                    `,placeholder:"••••••••",autoComplete:"current-password"})]}),i&&e.jsx("div",{className:"rounded-[22px] border border-rose-200 bg-rose-50 px-4 py-3",children:e.jsx("p",{className:"text-xs text-rose-700",children:i})}),e.jsx("button",{"data-testid":"login-submit",type:"submit",disabled:!s||!a||l,className:`
+                    w-full rounded-[22px] bg-[#2f57c8] py-3 text-sm font-semibold text-white
+                    shadow-[0_16px_28px_rgba(47,87,200,0.24)]
+                    transition hover:bg-[#2749a5]
+                    disabled:cursor-not-allowed disabled:bg-slate-200 disabled:text-slate-500 disabled:shadow-none
+                  `,children:l?"Giriş yapılıyor...":"Giriş Yap"}),e.jsx("p",{className:"pt-1 text-center text-[11px] text-slate-500",children:"Sorun yaşıyorsanız bölüm yöneticinizle iletişime geçin."})]})}),e.jsxs("p",{className:"mt-5 text-center text-[11px] text-slate-400",children:["© ",new Date().getFullYear()," İstanbul Medipol Üniversitesi"]}),e.jsx("p",{className:"mt-2 text-center text-[11px] text-slate-500",children:e.jsx(p,{"data-testid":"privacy-link",to:"/privacy",className:"font-medium text-[#2f57c8] transition hover:text-[#24449e] hover:underline",children:"Gizlilik Politikası"})})]})})})};export{w as default};
